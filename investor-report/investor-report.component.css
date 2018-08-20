@@ -1,0 +1,30 @@
+
+.row {
+    padding: 0.2em  !important;
+}
+div#inputBox {
+    width: 98% !important;
+    margin: auto !important;
+    background-color: white !important;
+}
+
+p {
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+    margin-left: 1% !important;
+    font-family: serif !important;
+    font-size: 23px !important;
+    color: cornflowerblue !important;
+}
+
+.resultBox {
+    width: 98% !important;
+    margin: auto !important;
+    background-color: white !important;
+    margin-top: 15px !important;
+    }
+    
+    .exportButton {
+        float: right !important;
+        margin: 0.5em !important;
+    }
