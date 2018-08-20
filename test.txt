@@ -1,69 +1,24 @@
 {
-  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "project": {
-    "name": "report-poc"
-  },
-  "apps": [
-    {
-      "root": "src",
-      "outDir": "dist",
-      "assets": [
-        "assets",
-        "favicon.ico"
-      ],
-      "index": "index.html",
-      "main": "main.ts",
-      "polyfills": "polyfills.ts",
-      "test": "test.ts",
-      "tsconfig": "tsconfig.app.json",
-      "testTsconfig": "tsconfig.spec.json",
-      "prefix": "app",
-      "styles": [
-        "styles.css",
-        "../node_modules/primeicons/primeicons.css",
-        "../node_modules/primeng/resources/themes/nova-light/theme.css",
-        "../node_modules/primeng/resources/primeng.min.css",
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "../node_modules/font-awesome/css/font-awesome.min.css"
-      ],
-      "scripts": [
-        "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.js",
-        "./assets/script.js/"
-      ],
-      "environmentSource": "environments/environment.ts",
-      "environments": {
-        "dev": "environments/environment.ts",
-        "prod": "environments/environment.prod.ts"
-      }
-    }
-  ],
-  "e2e": {
-    "protractor": {
-      "config": "./protractor.conf.js"
-    }
-  },
-  "lint": [
-    {
-      "project": "src/tsconfig.app.json",
-      "exclude": "**/node_modules/**"
-    },
-    {
-      "project": "src/tsconfig.spec.json",
-      "exclude": "**/node_modules/**"
-    },
-    {
-      "project": "e2e/tsconfig.e2e.json",
-      "exclude": "**/node_modules/**"
-    }
-  ],
-  "test": {
-    "karma": {
-      "config": "./karma.conf.js"
-    }
-  },
-  "defaults": {
-    "styleExt": "css",
-    "component": {}
-  }
+    "responseCode": 200,
+    "responseMessage": "Success",
+    "clientReport": [
+        {
+            "investorName": "Bank of Coimbatore ",
+            "program": "Coromandel Train Company",
+            "limit": "USD 100 mn",
+            "ccySold": "EUR, USD",
+            "investorPricing": "60 bps",
+            "supplierExcluded": "ABC Ltd, Xyz Ltd",
+            "supplierCountiesPermitted": "Europe, US",
+            "obligorCodesPermitted": "Ericsson AB, LM Ericsson & Ericsson GMBH",
+            "minTenor": 15,
+            "maxTenor": 200,
+            "minBookingMargin": 5,
+            "maximumNumberOfNotesAllowed": 5,
+            "minimumNoteSize": 100000,
+            "lastUpdated": "2018-08-19T17:12:35.765+0000",
+            "toDate": "2018-08-19T17:12:35.765+0000",
+            "fromDate": "2018-08-19T17:12:35.766+0000"
+        }
+    ]
 }
