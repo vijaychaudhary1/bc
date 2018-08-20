@@ -1,0 +1,50 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.css";
+body{
+    height: -webkit-fill-available;
+}
+p-dropdown .ui-dropdown {
+    width:80% !important;
+    }
+    p-dropdown .ui-dropdown-panel .ui-dropdown-item{
+        font-size:12px;
+        padding-left: 4%;
+        border-radius: 0;
+        -webkit-border-radius:0px !important;
+            -moz-border-radius:0px !important;;
+            -o-border-radius:0px !important;; 
+        }
+        p-calendar button .ui-datepicker-trigger.ui-calendar-button{
+            color:#C4CDD5 !important;
+            background-color: #fff !important;
+            border:1px solid #C4CDD5 !important;
+            border-left: none !important;
+        }
+        p-calendar input{
+            width:232px !important;
+            /* border-right:none !important; */
+        
+        }
+        
+p-calendar button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only{
+    border:1px solid #c4cdd5 !important;
+    border-left: none !important;
+    border-radius: 0!important;
+    -webkit-border-radius:0px !important;
+    -moz-border-radius:0px !important;;
+    -o-border-radius:0px !important;; 
+}
+
+.bttn-primary {
+    background-color: #18407e!important;
+     padding: 0px 10px !important; 
+    color: #fff!important;
+    font-size: 14px!important;
+    border-radius: 6px;
+    -webkit-border-radius:6px !important;
+    -moz-border-radius:6px !important;
+    -o-border-radius:6px!important; 
+}
+.align-right {
+    text-align: right;
+}
